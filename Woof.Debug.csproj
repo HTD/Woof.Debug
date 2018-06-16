@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Woof</RootNamespace>
+    <Authors>Adam Łyskawa, Kamil Marzec</Authors>
+    <Company>CodeDog Ltd.</Company>
+    <Description>.NET Standard extensions to make some debugging / benchmarking work easier.</Description>
+    <Copyright>(c)2018 by CodeDog Ltd.</Copyright>
+    <PackageLicenseUrl>https://en.wikipedia.org/wiki/MIT_License</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/HTD/Woof.Debug</PackageProjectUrl>
+    <PackageTags>code core codedog dotnet system debug</PackageTags>
+    <PackageReleaseNotes>Initial release, may contain some bugs.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Tests\**" />
+    <EmbeddedResource Remove="Tests\**" />
+    <None Remove="Tests\**" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Woof.Debug", "Woof.Debug.csproj", "{2F0D03BD-C209-4597-B496-FA097E0C6568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Woof.Debug.Tests", "Tests\Woof.Debug.Tests.csproj", "{C34701DA-055D-4A51-B359-2A573F6FEECB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F0D03BD-C209-4597-B496-FA097E0C6568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0D03BD-C209-4597-B496-FA097E0C6568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0D03BD-C209-4597-B496-FA097E0C6568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0D03BD-C209-4597-B496-FA097E0C6568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C34701DA-055D-4A51-B359-2A573F6FEECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C34701DA-055D-4A51-B359-2A573F6FEECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C34701DA-055D-4A51-B359-2A573F6FEECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C34701DA-055D-4A51-B359-2A573F6FEECB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F638D9EE-0E74-4598-89E6-AE42CDFA922A}
+	EndGlobalSection
+EndGlobal
