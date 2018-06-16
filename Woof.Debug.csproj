@@ -11,6 +11,7 @@
     <PackageProjectUrl>https://github.com/HTD/Woof.Debug</PackageProjectUrl>
     <PackageTags>code core codedog dotnet system debug</PackageTags>
     <PackageReleaseNotes>Initial release, may contain some bugs.</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
