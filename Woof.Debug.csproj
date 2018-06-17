@@ -11,8 +11,11 @@
     <PackageProjectUrl>https://github.com/HTD/Woof.Debug</PackageProjectUrl>
     <PackageTags>code core codedog dotnet system debug</PackageTags>
     <PackageReleaseNotes>XML documentation completed.</PackageReleaseNotes>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Version>1.0.1</Version>
+    <Product>Woof.Debug</Product>
+    <PackageId>Woof.Debug</PackageId>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
